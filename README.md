@@ -43,6 +43,19 @@ bin/magento cache:clean
 bin/magento setup:upgrade
 ```
 
+## Disable This Module 
+```bash
+bin/magento module:disable ElasticAppSearch_Search
+bin/magento module:disable ElasticAppSearch_Synonyms
+bin/magento module:disable ElasticAppSearch_CatalogSearch
+bin/magento module:disable ElasticAppSearch_CatalogGraphQl
+```
+
+```bash
+bin/magento cache:clean
+bin/magento setup:upgrade
+```
+
 ## Usage
 
 ### Configuring App Search credentials
